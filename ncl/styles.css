@@ -1,0 +1,375 @@
+
+body {
+    background: url(images/bg.jpg) repeat-y top center;
+    min-height: 1200px;
+    font-family: 'Roboto', san-serif;
+    background-size: cover;
+}
+.container {
+    width: 1013px !important;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a.logo {
+    display: block;
+    float: left;
+
+}
+.main-menu {
+    margin-top: 10px;
+    text-align: right;
+}
+.main-menu .navbar-nav {
+    float: right;
+}
+.main-menu >ul >li >a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #923700;
+    min-width: 119px;
+
+}
+.main-menu >ul >li >a:hover,.main-menu >ul >li.current >a {
+background: url(images/menu-bg.png) no-repeat center;
+
+}
+.main {
+    background: url(images/main-img.png) no-repeat top center;
+    min-height: 800px;
+}
+.footer * {
+    color: #984514;
+}
+.right {
+    text-align: right;
+}
+.home-link a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 86px;
+    text-indent: -9999px;
+}
+.home-link {
+    position: relative;
+}
+.home-link a.stt1 {
+    left: 109px;
+}
+a.stt2 {
+        top: 64px;
+    right: -31px;
+}
+a.stt3 {
+        top: 595px;
+    left: 20px;
+}
+a.stt4 {
+    top: 569px;
+    right: -25px;
+}
+
+.slider {
+    width: 540px;
+    height: 378px;
+    position: absolute;
+    top: 186px;
+    left: 50%;
+    margin-left: -253px;
+
+
+}
+.slider:after {
+    display: block;
+    background: url(images/slider-bg.png);
+    background-size: cover;
+    content: ' ';
+    position: absolute;
+    width: 557px;
+    height: 391px;
+    top: -9px;
+    left: -6px;
+
+}
+.main .container {
+    position: relative;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: url(images/normal.png) !important;
+    opacity: 1 !important;
+        width: 14px;
+    height: 13px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: url(images/active.png) !important;
+}
+.snav {
+background: url(images/nav-prev.png) no-repeat;
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 165px;
+    left: -64px;
+}
+.snav.next {
+background: url(images/nav-next.png) no-repeat;
+    width: 36px;
+    top: 162px;
+    left: 562px;
+    height: 38px;
+}
+.footer a i.fa {
+        font-size: 30px;
+}
+.main.about, .main.friends, .main.cungxay, .main.maps, .main.chuyen {
+    background: none !important;
+}
+.sub-page ul li a  {
+color: #7a2e00;
+    background: url(images/c-menu-bg.png) no-repeat top center;
+    padding: 13px 5px;
+    display: block;
+    width: 184px;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+}
+.sub-page.friends-menu ul li a {
+    width: 234px;
+}
+.sub-page ul li a:hover,.sub-page ul li.current a:hover  {
+    color: #f05e35;
+    background: url(images/c-menu-bg-active.png) no-repeat top center;
+}
+.page-content {
+    padding: 30px 0;
+    color: #7a2e00;
+}
+.head-title {
+    background: url(images/head-title.png) no-repeat top left;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    height: 146px;
+    padding-left: 254px;
+}
+.page-content h3 {
+    font-weight: bold;
+}
+.about .cover-img {
+    height: 300px;
+    width: 100%;
+    background: url(images/about-bg.png) center no-repeat;
+}
+.friends .cover-img {
+    height: 300px;
+    width: 100%;
+    background: url(images/friends-bg.png) center no-repeat;
+}
+.chuyen .cover-img {
+    height: 400px;
+    width: 100%;
+    background: url(images/friends-bg.png) center no-repeat;
+}
+.inf {
+    width: 240px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.inf img {
+    display: block;
+    width: 100%;
+}
+.inf p {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.paginate ul.list-inline li a {
+
+}
+
+.item-4 ul li a {
+    width: 222px;
+    background: url(images/4c-menu-bg.png) no-repeat top center;
+}
+.item-4 ul li a:hover, .item-4 ul li.current a {
+    color: #f05e35;
+    background: url(images/4c-menu-bg-active.png) no-repeat top center !important;
+}
+.item-2 ul li a {
+    width: 252px;
+    background: url(images/2c-menu-bg.png) no-repeat top center;
+}
+.item-2 ul li a:hover, .item-2 ul li.current a {
+    color: #f05e35;
+    background: url(images/2c-menu-bg-active.png) no-repeat top center !important;
+}
+.cungxay .cover-img {
+    background: url(images/cungxay.png) no-repeat top center;
+    height: 300px;
+    width: 100%;
+}
+.list-sp .sp {
+    width: 240px;
+    margin-right: 5px;
+    float: left;
+}
+.sp a {
+    text-decoration: none;
+}
+.sp {
+    height: 330px;
+}
+.sp p.title {
+    font-size: 18px;
+    color: #7a2e00;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sp p.price {
+    font-size: 18px;
+    color: #f05e35;
+    font-weight: bold;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 100%;
+    display: none;
+    left: 0px;
+    text-align: center;
+
+}
+.sub-menu >li >a {
+    color: #7a2e00;
+    font-size: 16px;
+    display: block;
+    padding: 5px;
+}
+.sub-menu >li >a:hover, .sub-menu >li.current >a {
+    font-weight: bold;
+    background: url(images/sub-bg.png) no-repeat bottom center;
+}
+.navbar-nav>li {
+    position: static !important;
+}
+.navbar-nav >li:hover > ul.sub-menu, .navbar-nav >li.current > ul.sub-menu{
+display: block;
+}
+
+.cungxay .slider {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 313px;
+    left: 0px;
+    margin-left: 0px;
+}
+.cungxay .slider:after {
+    background: url(images/cx-mark.png) no-repeat top center ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 315px;
+}
+.cungxay .snav {
+    left: 10px;
+    z-index: 3;
+}
+.cungxay .snav.next {
+    left: 922px;
+}
+.main-map {
+    width: 976px;
+    height: 772px;
+    background: url(images/maps.png) no-repeat top center;
+    padding-top: 325px;
+
+}
+.info-detail {
+    color: #7a2e00;
+    font-size: 16px;
+    padding: 20px;
+    background: url(images/info-detail-bg.png) no-repeat top center;
+    width: 342px;
+    height: 243px;
+    margin: 50px 90px;
+}
+.info-detail a {
+    color: #7a2e00;
+    text-decoration: underline;
+}
+p.tinh {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-vin {
+    background: url(images/4c-menu-bg.png) no-repeat top center;
+    color: #7a2e00;
+    display: block;
+    height: 46px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.btn-vin:hover {
+    background: url(images/4c-menu-bg-active.png) no-repeat top center;
+}
+.album {
+    float: left;
+    margin-left: 5px;
+    width: 240px;
+
+
+}
+
+.album a img {
+    margin-bottom: 10px;
+}
+.album a {
+    color: #7a2e00;
+}
+.album a .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.about-menu {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.paginate ul li a {
+    display: block;
+    background: url(images/pagi.png) no-repeat top center;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #7a2e00;
+}
+.paginate ul li.current a, .paginate ul li:hover a {
+    color: #fff;
+    background: url(images/pagi-active.png) no-repeat top center;
+}
+.paginate {
+    text-align: center;
+}
+.main-map .sub-page {
+text-align: left;
+}
+.footer i {
+    position: absolute;
+left: 277px;
+    top: -6px;
+}
